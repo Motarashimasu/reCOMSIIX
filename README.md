@@ -13,6 +13,15 @@ It is a work in progress, and a lot needs to make sure the SOCOM experience is o
 5. Drag all DLL files into ``output/debug`` or ``output/release``
 6. That's it!
 
+# ZAR Extraction
+The executable now supports extracting ZAR archives via command line:
+
+```
+fts --extract-zar path/to/archive.ZAR --out path/to/output_dir
+```
+
+If the archive uses a different padding size than the default 16 bytes, pass ``--pad <bytes>``.
+
 # ROM Information
 The ROM information used in this decompilation project is listed below:
 - Name: **SCUS_972.05**
